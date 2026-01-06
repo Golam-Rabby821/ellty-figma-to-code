@@ -1,0 +1,102 @@
+.app-container {
+	position: relative;
+	width: 578px;
+	height: 794px;
+	background: #bababa;
+}
+
+.form-container {
+	position: absolute;
+	top: 85px;
+	left: 104px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	border: 1px solid #eeeeee;
+	border-radius: 6px;
+	padding: 10px 0px;
+	box-shadow: 0px 8px 15px 0px rgba(20, 20, 20, 0.12),
+		0px 0px 4px 0px rgba(20, 20, 20, 0.1);
+}
+
+.all-pages-checkbox-frame {
+	width: 35px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.divider {
+	display: flex;
+	justify-content: center;
+	width: 370px;
+	box-sizing: border-box;
+	padding: 10px 15px;
+}
+
+.divider .divider-line {
+	flex: 1;
+	height: 0;
+	border: 0.7px solid #cdcdcd;
+	box-sizing: border-box;
+}
+
+.pages-section {
+	position: relative;
+	width: 370px;
+	height: 164px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	overflow-y: auto;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+.pages-section::-webkit-scrollbar {
+	display: none;
+}
+
+.pages-section .page-common {
+	position: absolute;
+	left: -1px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 370px;
+	height: 42px;
+	box-sizing: border-box;
+	padding: 8px 15px 8px 22px;
+	background-color: #ffffff;
+}
+
+.pages-section .page-1 {
+	top: -1px;
+}
+
+.pages-section .page-2 {
+	top: 41px;
+}
+.pages-section .page-3 {
+	top: 83px;
+}
+
+.pages-section .page-4 {
+	top: 125px;
+}
+.pages-section .page-5 {
+	top: 167px;
+}
+.pages-section .page-6 {
+	top: 209px;
+}
+
+.done-button-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 370px;
+	box-sizing: border-box;
+	padding: 10px 15px;
+	background-color: #ffffff;
+}

@@ -1,0 +1,38 @@
+.button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	line-height: 130%;
+	font-weight: 400;
+	color: #1f2128;
+	letter-spacing: 0px;
+	width: 340px;
+	height: 40px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 4px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.button--default {
+	background-color: #ffce22;
+}
+
+.button--default:hover {
+	background-color: #ffd84d;
+}
+
+.button--variant2 {
+	background-color: #ffd84d;
+}
+
+.button--variant2:active {
+	background-color: #ffce22;
+}
+
+.button--variant3 {
+	background-color: #ffce22;
+}
