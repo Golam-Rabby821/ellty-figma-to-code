@@ -1,4 +1,4 @@
-.all-pages-row {
+.pages-row {
     width: 370px;
 	height: 42px;
 	display: flex;
@@ -10,7 +10,7 @@
     cursor: pointer;
   }
 
-  .all-pages-text {
+  .pages-text {
 	font-family: "Montserrat", sans-serif;
 	font-size: 14px;
 	font-weight: 400;

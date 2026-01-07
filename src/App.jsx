@@ -1,55 +1,24 @@
 import "./App.css";
 import Button from "./components/Button/Button";
-import AllPagesRow from "./components/CheckBox/AllPagesRow";
-import CheckBox from "./components/CheckBox/CheckBox";
+import PagesRow from "./components/CheckBox/PagesRow";
 
 function App() {
 	return (
 		<>
 			<div className="app-container">
 				<div className="form-container">
-					<AllPagesRow />
+					<PagesRow label="All Pages" />
 
 					<div className="divider">
 						<span className="divider-line"></span>
 					</div>
 					<div className="pages-section">
-						<div className="page-1 page-common">
-							<div className="all-pages-text">Page 1</div>
-							<div className="all-pages-checkbox-frame">
-								<CheckBox variant="variant2" />
-							</div>
-						</div>
-						<div className="page-2 page-common">
-							<div className="all-pages-text">Page 2</div>
-							<div className="all-pages-checkbox-frame">
-								<CheckBox variant="variant2" />
-							</div>
-						</div>
-						<div className="page-3 page-common">
-							<div className="all-pages-text">Page 3</div>
-							<div className="all-pages-checkbox-frame">
-								<CheckBox variant="variant2" />
-							</div>
-						</div>
-						<div className="page-4 page-common">
-							<div className="all-pages-text">Page 4</div>
-							<div className="all-pages-checkbox-frame">
-								<CheckBox variant="variant2" />
-							</div>
-						</div>
-						<div className="page-5 page-common">
-							<div className="all-pages-text">Page 5</div>
-							<div className="all-pages-checkbox-frame">
-								<CheckBox variant="variant2" />
-							</div>
-						</div>
-						<div className="page-6 page-common">
-							<div className="all-pages-text">Page 6</div>
-							<div className="all-pages-checkbox-frame">
-								<CheckBox variant="variant2" />
-							</div>
-						</div>
+						<PagesRow label="Page 1" className="page-1 page-common" />
+						<PagesRow label="Page 2" className="page-2 page-common" />
+						<PagesRow label="Page 3" className="page-3 page-common" />
+						<PagesRow label="Page 4" className="page-4 page-common" />
+						<PagesRow label="Page 5" className="page-5 page-common" />
+						<PagesRow label="Page 6" className="page-6 page-common" />
 					</div>
 					<div className="divider">
 						<span className="divider-line"></span>

@@ -39,7 +39,7 @@ function reducer(state, action) {
 	return transitions[state]?.[action] ?? state;
 }
 
-export default function AllPagesRow() {
+export default function PagesRow({label , className=""}) {
 	const [state, dispatch] = useReducer(reducer, "default");
 	const isHovering = useRef(false);
 
@@ -71,14 +71,14 @@ export default function AllPagesRow() {
 
 	return (
 		<div
-			className="all-pages-row"
+			className={`pages-row ${className}`}
 			onMouseEnter={handleMouseEnter}
 			onMouseLeave={handleMouseLeave}
 			onMouseDown={handlePress}
 			onTouchStart={handlePress}
 			onClick={handleClick}
 		>
-			<div className="all-pages-text">All pages</div>
+			<label className="pages-text">{label}</label>
 			<div className="checkbox-frame">
 				<HomeCheckBox variant={state} />
 			</div>
