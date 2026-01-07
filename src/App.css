@@ -2,7 +2,6 @@
 	position: relative;
 	width: 578px;
 	height: 794px;
-	background: #bababa;
 }
 
 .form-container {
@@ -30,6 +29,7 @@
 	display: flex;
 	justify-content: center;
 	width: 370px;
+	height: 20px;
 	box-sizing: border-box;
 	padding: 10px 15px;
 }
@@ -37,8 +37,8 @@
 .divider .divider-line {
 	flex: 1;
 	height: 0;
-	border: 0.7px solid #cdcdcd;
 	box-sizing: border-box;
+	border: 0.7px solid #cdcdcd;
 }
 
 .pages-section {

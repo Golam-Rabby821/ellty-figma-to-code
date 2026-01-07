@@ -1,4 +1,4 @@
-import { useReducer } from "react";
+import { useReducer, useRef } from "react";
 import "./AllPagesRow.css";
 import HomeCheckBox from "./HomeCheckBox";
 
@@ -41,14 +41,42 @@ function reducer(state, action) {
 
 export default function AllPagesRow() {
 	const [state, dispatch] = useReducer(reducer, "default");
+	const isHovering = useRef(false);
+
+	const handleMouseEnter = () => {
+		isHovering.current = true;
+		dispatch("hover");
+	};
+
+	const handleMouseLeave = () => {
+		isHovering.current = false;
+		dispatch("leave");
+	};
+
+	const handlePress = () => {
+		dispatch("press");
+
+		if (isHovering.current) {
+			dispatch("hover");
+		}
+	};
+
+	const handleClick = () => {
+		dispatch("click");
+
+		if (isHovering.current) {
+			dispatch("hover");
+		}
+	}
 
 	return (
 		<div
 			className="all-pages-row"
-			onMouseEnter={() => dispatch("hover")}
-			onMouseLeave={() => dispatch("leave")}
-			onMouseDown={() => dispatch("press")}
-			onClick={() => dispatch("click")}
+			onMouseEnter={handleMouseEnter}
+			onMouseLeave={handleMouseLeave}
+			onMouseDown={handlePress}
+			onTouchStart={handlePress}
+			onClick={handleClick}
 		>
 			<div className="all-pages-text">All pages</div>
 			<div className="checkbox-frame">
