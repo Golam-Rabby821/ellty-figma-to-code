@@ -17,14 +17,6 @@
 		0px 0px 4px 0px rgba(20, 20, 20, 0.1);
 }
 
-.all-pages-checkbox-frame {
-	width: 35px;
-	height: 35px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
 .divider {
 	display: flex;
 	justify-content: center;
