@@ -21,16 +21,8 @@
 	background-color: #ffce22;
 }
 
-.button--default:hover {
-	background-color: #ffd84d;
-}
-
 .button--variant2 {
 	background-color: #ffd84d;
-}
-
-.button--variant2:active {
-	background-color: #ffce22;
 }
 
 .button--variant3 {

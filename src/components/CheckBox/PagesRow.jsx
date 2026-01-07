@@ -1,5 +1,5 @@
 import { useReducer, useRef } from "react";
-import "./AllPagesRow.css";
+import "./PagesRow.css";
 import HomeCheckBox from "./HomeCheckBox";
 
 const transitions = {
