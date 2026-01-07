@@ -22,46 +22,46 @@
 
 .checkbox.variant2 {
 	border: 1px solid #bdbdbd;
-	background-image: url("lighter-gray-tick.svg");
+	background-image: url("/icons/lighter-gray-tick.svg");
 	opacity: 1;
 }
 
 .checkbox.variant3 {
 	border: 1px solid #bdbdbd;
-	background-image: url("gray-tick.svg");
+	background-image: url("/icons/gray-tick.svg");
 	opacity: 1;
 }
 
 .checkbox.variant4 {
 	border: none;
 	background-color: #5087f8;
-	background-image: url("whiter-tick.svg");
+	background-image: url("/icons/whiter-tick.svg");
 	opacity: 1;
 }
 
 .checkbox.variant5 {
 	border: none;
 	background-color: #2469f6;
-	background-image: url("whiter-tick.svg");
+	background-image: url("/icons/whiter-tick.svg");
 	opacity: 1;
 }
 
 .checkbox.variant6 {
 	border: none;
 	background-color: #5087f8;
-	background-image: url("whiter-tick.svg");
+	background-image: url("/icons/whiter-tick.svg");
 	opacity: 1;
 }
 
 .checkbox.variant7 {
 	border: none;
 	background-color: #2469f6;
-	background-image: url("whiter-tick.svg");
+	background-image: url("/icons/whiter-tick.svg");
 	opacity: 1;
 }
 
 .checkbox.variant8 {
 	border: 1px solid #bdbdbd;
-	background-image: url("lighter-gray-tick.svg");
+	background-image: url("/icons/lighter-gray-tick.svg");
 	opacity: 1;
 }
