@@ -1,6 +1,6 @@
-# Ellty Test Assignment 1
+# Interactive Checkbox UI System
 
-This project is a pixel-accurate implementation of the provided Figma design as part of the Ellty frontend test assignment.
+A pixel-accurate Figma-to-React implementation showcasing advanced UI interactions, reusable component architecture, and performance-conscious frontend development.
 
 ## 🔗 Live Demo
 
@@ -11,18 +11,19 @@ https://elltyfigmatocodegr.netlify.app/
 - React
 - Vite
 - CSS (no UI libraries)
+- Netlify (deployment)
 
 ## ✨ Features
 
-- Pixel-perfect layout matching the Figma design
-- Custom checkbox interaction states
-- Reusable components with clean state management
-- Button interaction states
-- Deployed on Netlify
+- Pixel-perfect layout recreated from Figma designs
+- Custom checkbox interaction states (hover, press, selected)
+- State-driven UI using reducers and reusable hooks
+- Interactive button variants
+- Optimized asset loading via SVG preloading
+- Clean, modular component structure
 
 ## ▶️ Run Locally
 
 ```bash
 npm install
 npm run dev
-```
