@@ -4,7 +4,7 @@ A pixel-accurate Figma-to-React implementation showcasing advanced UI interactio
 
 ## 🔗 Live Demo
 
-https://elltyfigmatocodegr.netlify.app/
+https://reactui-interactions-figmaconversion.netlify.app/
 
 ## 🛠 Tech Stack
 
